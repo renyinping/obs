@@ -7,4 +7,3 @@ RUN cd openwrt &&\
     ./scripts/feeds update -a &&\
     ./scripts/feeds install -a
 
-RUN make download
